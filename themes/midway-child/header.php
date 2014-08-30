@@ -85,12 +85,24 @@
 					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-67"><a href=""><strong>Facilities<span>Latest News</span></strong></a>
 						<ul class="sub-menu">
 							<li><a href="">Hannah's Zip Line</a></li>
+							<li><a href="">Solar heated swimming pool</a></li>
+							<li><a href="">Infinity pool</a></li>
+							<li><a href="">Infra red & spa (sauna)</a></li>
 							<li><a href="">Blue Bar</a></li>
-							<li><a href="">Poolside Bar</a></li>
-							<li><a href="">Meal Options</a></li>
+							<li><a href="">Children’s playground</a></li>
+							<li><a href="">Meditation room & grotto of miraculous medal</a></li>
+							<li><a href="">Picnic huts / tables / tents</a></li>
+							<li><a href="">Blue lagoon tower</a></li>
+							<li><a href="">Dormitories</a></li>
+							<li><a href="">Convention hall / Ocean view hall / Tropical pavilion hall</a></li>
+							<li><a href="">Shooting range</a></li>
+							<li><a href="">Karaoke bar</a></li>
+							<li><a href="">Restaurant</a></li>
+							<li><a href="">Gift shop</a></li>
+							<li><a href="">Lighted parking area</a></li>
 						</ul>
 					</li>
-					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Special Events<span>of this theme</span></strong></a>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Special Events<span>Celebrations</span></strong></a>
 						<ul class="sub-menu">
 							<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-71"><a href="">Birthday</a></li>
 							<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-89"><a href="">Christening</a></li>
@@ -102,9 +114,35 @@
 							<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-88"><a href="">Beauty Pagent</a></li>
 						</ul>
 					</li>
-					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Weddings<span>of this theme</span></strong></a>
-					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Team Buildings<span>Collaboration</span></strong></a>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Weddings<span>Ocean view</span></strong></a>
+					<ul>
+						<li><a href="">Ocean View<</a></li>
+						<li><a href="">Blue lagoon</a></li>
+						<li><a href="">Pre-nuptial photoshoot</a></li>
+					</ul>
+					</li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Team Buildings<span>Collaboration</span></strong></a></li>
 					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-72"><a href=""><strong>Real Adventure<span>Outdoor Activites</span></strong></a>
+						<ul>
+							<li><a href="">ATV – All Terrain Vehicle</a></li>
+							<li><a href="">Banana boats</a></li>
+							<li><a href="">Beach volleyball</a></li>
+							<li><a href="">Billiards & darts</a></li>
+							<li><a href="">Fishing</a></li>
+							<li><a href="">Full basketball court</a></li>
+							<li><a href="">Hanging bridge</a></li>
+							<li><a href="">Horse back riding</a></li>
+							<li><a href="">Jet ski</a></li>
+							<li><a href="">Kayak</a></li>
+							<li><a href="">Mountain biking</a></li>
+							<li><a href="">Rubber boats</a></li>			
+							<li><a href="">Shooting range</a></li>
+							<li><a href="">Speed boat</a></li>
+							<li><a href="">Snorkeling</a></li>
+							<li><a href="">Surfing</a></li>
+							<li><a href="">Zipline</a></li>
+						</ul>
+					</li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-70"><a href=""><strong>How to get there<span>By air or land</span></strong></a></li>
 					</ul>				
 					<!-- .main-navigation -->
