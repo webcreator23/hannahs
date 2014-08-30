@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: "ArvoRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("☺"), url("/css/fonts/Arvo-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Arvo-Regular-webfont.woff") format("woff"), url("/css/fonts/Arvo-Regular-webfont.ttf") format("truetype"), url("/css/fonts/Arvo-Regular-webfont.svg#LeagueGothicRegular") format("svg");
+}
+@font-face {
+    font-family: "ArvoItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("☺"), url("/css/fonts/Arvo-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Arvo-Italic-webfont.woff") format("woff"), url("/css/fonts/Arvo-Italic-webfont.ttf") format("truetype"), url("/css/fonts/Arvo-Italic-webfont.svg#LeagueGothicRegular") format("svg");
+}
+@font-face {
+    font-family: "ArvoBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("☺"), url("/css/fonts/Arvo-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Arvo-Bold-webfont.woff") format("woff"), url("/css/fonts/Arvo-Bold-webfont.ttf") format("truetype"), url("/css/fonts/Arvo-Bold-webfont.svg#LeagueGothicRegular") format("svg");
+}
+@font-face {
+    font-family: "ArvoBoldItalic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("☺"), url("/css/fonts/Arvo-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Arvo-BoldItalic-webfont.woff") format("woff"), url("/css/fonts/Arvo-BoldItalic-webfont.ttf") format("truetype"), url("/css/fonts/Arvo-BoldItalic-webfont.svg#LeagueGothicRegular") format("svg");
+}

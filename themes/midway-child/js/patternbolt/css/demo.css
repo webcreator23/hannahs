@@ -1,0 +1,4 @@
+body .over-picture .over-img.box-img.pb-pattern:after {
+  background-size: 8px auto;
+  opacity: 0.2;
+}

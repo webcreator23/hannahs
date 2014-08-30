@@ -1,0 +1,441 @@
+@charset "utf-8";
+
+/*
+Theme Name: Midway Child
+Theme URI: http://themextemplates.com/demo/midway
+License: GNU General Public License and Themeforest License
+License URI: http://themeforest.net/licenses/regular_extended
+Description: Premium Travel WordPress Theme.
+Author: Themex
+Author URI: http://www.themeforest.net/user/themex/
+Version: 3.7
+Tags: travel, trip, tour, journal, nature, ecological, cruise, holiday, booking
+*/
+
+@import url("../midway/style.css");
+/* =Theme customization starts here
+*/
+h1, h2, h3, h4, h5, h6, .button, .header-menu a, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+  font-family: lobster!important;
+}
+body {
+  background: url("images/sand.png");
+  background-repeat: repeat;
+}
+.ribbon{
+  background: url("images/topwave.gif");
+  background-repeat: repeat-x;
+  height: 90px;
+}
+.top-header{
+	background: url("images/top-bg.png");
+	height: 29px;
+}
+.site-header {
+  backface-visibility: hidden;
+  padding: 0 0 !important;
+  z-index: 1000;
+}
+.site-header .logo img {
+  display: block;
+  height: auto;
+}
+.main-navigation{
+	height: 100px;
+	padding-top: 10px;
+	position: relative;
+	left: -23px;
+  padding-bottom: 20px;
+}
+.logo-head{
+	float: left;
+	background: url("images/hannahs-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+	height: 205px;
+	width: 303px;
+}
+.logo-head a{
+	text-indent: -99999px;
+	 display:inline-block;
+}
+.upheader{
+	z-index: 200;
+  width: 999px;
+}
+
+a.button0 {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.1;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+a.button0:hover {
+    background: none repeat scroll 0 0 #fff;
+    color: #1c1c1c !important;
+}
+.main-navigation select {
+    display: none;
+    float: right;
+    margin: 50px 0 0;
+}
+#navigation {
+    float: right;
+    max-width: 75%;
+}
+#navigation li {
+    display: block;
+    float: left;
+    font-size: 19px;
+    font-family: lobster;
+    /*font-size: 12px;*/
+}
+#navigation li strong {
+    border-right: 1px solid #e8e8e8;
+    display: block;
+    font-weight: 400;
+    padding: 10px;
+}
+#navigation li a {
+    color: #1c1c1c;
+    display: block;
+    padding: 40px 0;
+    text-decoration: none;
+}
+#navigation li:last-child strong {
+    border-right: medium none;
+}
+#navigation li span {
+    color: #a09d9d;
+    display: block;
+    letter-spacing: 0.01em;
+    margin: 5px 0 0;
+    text-transform: lowercase;
+    font-family: 'ArvoRegular',arial,helvetica,san-serif;
+    font-size: 15px;
+}
+#navigation li a:hover span, #navigation li:hover span, #navigation li.current-menu-item a span {
+    color: #1c1c1c;
+}
+#navigation li li.current-menu-item, #navigation li li.current_page_item, #navigation li li:hover {
+    border-bottom: 1px solid #e8e8e8;
+}
+#navigation li li, #navigation li li:hover {
+    border-bottom: 1px solid #e8e8e8;
+    letter-spacing: 0;
+    text-transform: none;
+}
+#navigation li li a.sf-with-ul:after {
+    background: url("images/arrows2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 8px;
+    position: absolute;
+    right: 1em;
+    top: 36%;
+    width: 8px;
+}
+#navigation li li a {
+    background: none repeat scroll 0 0 #fff;
+    font-size: 13px;
+    padding: 15px 20px;
+    font-family: 'ArvoRegular',arial,helvetica,san-serif;
+}
+#navigation li li a:hover {
+    background: none repeat scroll 0 0 #fafafa;
+}
+#navigation .current-menu-item, #navigation .current_page_item, #navigation li {
+    border-bottom: 4px solid #fff;
+    border-color: #fff;
+}
+#navigation li ul {
+    box-shadow: 0 0 4px rgba(136, 136, 136, 0.6);
+}
+.mobile-menu-wrapper {
+    display: none;
+    float: right;
+    margin: 38px 0 0;
+    position: relative;
+}
+.mobile-menu-button {
+    background-image: url("images/mobile-menu.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 55px;
+    margin: 0 1px 0 0;
+    width: 55px;
+}
+.mobile-menu-title {
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    height: 34px;
+    padding: 21px 0 0;
+    text-indent: 20px;
+    width: 200px;
+}
+.mobile-menu-button:hover {
+    cursor: pointer;
+}
+.mobile-menu-inner {
+    display: none;
+    height: 300px;
+    margin: 1px 0 0;
+    overflow: scroll;
+    padding: 0 0 30px;
+    position: absolute;
+    top: 55px;
+    width: 256px;
+    z-index: 99;
+}
+#mobile-menu {
+    padding: 2px 15px 10px !important;
+    width: 82%;
+}
+#mobile-menu li {
+    border-top: 1px solid #313335;
+    font-size: 14px;
+}
+#mobile-menu li li {
+    margin: 0 0 0 10px;
+}
+#mobile-menu li li li {
+    margin: 0 0 0 20px;
+}
+#mobile-menu li a {
+    color: #9da0a4;
+    display: block;
+    line-height: 2.5em;
+    text-decoration: none;
+}
+#mobile-menu li a:hover {
+    color: #fff;
+}
+#mobile-menu li.current_page_item a {
+    color: #fff;
+}
+#mobile-menu li.current_page_item ul li a {
+    color: #9da0a4;
+}
+#mobile-menu li.current_page_item ul li a:hover {
+    color: #fff;
+}
+
+/*** ESSENTIAL STYLES ***/
+#navigation, #navigation *,
+#language-selection, #language-selection * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+#navigation,
+#language-selection {
+	line-height:	1.0;
+}
+#navigation ul {
+	position:		absolute;
+	top:			-999em;
+	width:			19em; /* left offset of submenus need to match (see below) */
+}
+
+#language-selection ul {
+	position:		absolute;
+	top:			-999em;
+	width:			7em; /* left offset of submenus need to match (see below) */
+}
+
+#navigation ul li,
+#language-selection ul li {
+	width:			100%;
+}
+#navigation li:hover,
+#language-selection li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+#navigation li,
+#language-selection li {
+	float:			left;
+	position:		relative;
+}
+#navigation a
+#language-selection a {
+	display:		block;
+	position:		relative;
+}
+#navigation li:hover ul,
+#navigation li.sfHover ul {
+	left:			0.01em;
+	top:			133px; /* match top ul list item height */
+	z-index:		99;
+}
+
+#language-selection li:hover ul, 
+#language-selection li.sfHover ul {
+	left:			0.01em;
+	top:			26px; /* match top ul list item height */
+	z-index:		99;
+}
+
+ul#navigation li:hover li ul,
+ul#navigation li.sfHover li ul,
+ul#language-selection li:hover li ul,
+ul#language-selection li.sfHover li ul {
+	top:			-999em;
+}
+ul#navigation li li:hover ul,
+ul#navigation li li.sfHover ul {
+	left:			19em; /* match ul width */
+	top:			0;
+}
+
+ul#language-selection li li:hover ul,
+ul#language-selection li li.sfHover ul {
+	left:			7em; /* match ul width */
+	top:			0;
+}
+
+ul#navigation li li:hover li ul,
+ul#navigation li li.sfHover li ul,
+ul#language-selection li li:hover li ul,
+ul#language-selection li li.sfHover li ul {
+	top:			-999em;
+}
+ul#navigation li li li:hover ul,
+ul#navigation li li li.sfHover ul {
+	left:			19em; /* match ul width */
+	top:			0;
+}
+
+ul#language-selection li li li:hover ul,
+ul#language-selection li li li.sfHover ul {
+	left:			7em; /* match ul width */
+	top:			0;
+}
+
+#navigation .current-menu-item, #navigation .current_page_item, #navigation li:hover, blockquote, .button1:hover, .button4:hover, .button5:hover, .button2, .wpcf7-submit, #submit, .button3, .button6, #footer .button1, .ui-tabs .ui-tabs-nav li.ui-state-active, .widget-reservation-box, .booking-side, .booking-main, #slider .home-reservation-box, #slider-full .home-reservation-box, #ui-datepicker-div, .pagination-wrapper .selected, .pagination-wrapper a:hover, .wp-pagenavi .current, .wp-pagenavi a:hover, .tagcloud a:hover, .nsu-submit:hover, #footer .nsu-submit, .nsu-submit:hover, #footer .nsu-submit {
+  border-color: #bf9958;
+}
+.row {
+   width: 1240px;
+}
+#navigation {
+  float: left;
+  max-width: 95%;
+  background: #fff;
+}
+#navigation li a {
+  color: #0a88bf;
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+}
+#navigation li:hover ul, #navigation li.sfHover ul {
+  left: 0.01em;
+  top: 74px !important;
+  z-index: 99;
+}
+.headercontainer {
+  float: left;
+  height: 200px;
+}
+.events-body,.headercontainer{
+	background: url("images/events-bg.png");
+	background-repeat: repeat-y;
+	width: 303px;
+}
+.home .site-header .subheader-block {
+  margin-bottom: 2em;
+  margin-top: 0px !important;
+}
+.events-title{
+	text-align: center;
+	color: #fff;
+	font-family: 'ArvoRegular',arial,helvetica,san-serif;
+	font-size: 16px;
+	font-weight: 100;
+	text-align: center;
+  padding:8px;
+}
+.contentCol {
+  float: left;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+}
+.contentCol .eventsListing {
+  overflow: hidden;
+  position: relative;
+}
+.contentCol .eventsListing ul {
+  margin: 0;
+  padding: 0;
+}
+.contentCol .eventsListing ul li {
+  border-bottom: 1px solid #e1e1e1;
+  list-style: none outside none;
+  width: 280px;
+  text-align: center;
+}
+.contentCol .eventsListing ul li a {
+  color: #00505c;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.contentCol .eventsListing ul li p {
+  color: #6d6e70;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.contentCol .eventsListing ul li:hover {
+  background-color: #fff;
+}
+.contentCol .eventsListing p a {
+  color: #00b0ca;
+  display: block;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contentCol .eventsListing img.events-image {
+padding-left:20px;
+	}
+.contact-info{
+	background-color: #028bff;
+	margin-top: 25px;
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+  font-family: lobster;
+}	
+.home .site-header .subheader-block {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.tour-thumb .tour-caption {
+  background: none repeat scroll 0 0 #fff;
+  padding: 0.9em 0 0.3em;
+  text-align: center;
+}
+h5 {
+  font-size: 1.8em!important;
+  margin-bottom: 0.5em;
+}
+
+span.highlight{
+  background-color: #ff9000;
+  padding:5px 10px!important;
+  color: #fff;
+}
+.site-content .borderimg{
+  border:10px!important;
+  border-color: #dbc287;
+}
