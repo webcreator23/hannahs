@@ -61,7 +61,7 @@ body {
 }
 .upheader{
 	z-index: 200;
-  width: 999px;
+  width: 1100px;
 }
 
 a.button0 {
@@ -431,11 +431,62 @@ h5 {
 }
 
 span.highlight{
+  
+  background-image: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.08) 0%, rgba(128, 128, 128, 0.08) 50%, rgba(255, 255, 255, 0.08) 100%);
   background-color: #ff9000;
   padding:5px 10px!important;
   color: #fff;
+
 }
 .site-content .borderimg{
   border:10px!important;
   border-color: #dbc287;
+}
+img.ball{
+  position: absolute;
+  bottom:80px;
+  width: auto;
+  z-index: 300;
+  right:-40px;
+  transition: all 300ms ease 0s;
+}
+img.star{
+  position: absolute;
+  bottom:80px;
+  width: auto;
+  z-index: 300;
+  left:280px;
+}
+img.ball:hover {
+  transform: rotateZ(8deg);
+  transform-origin: 60% 80% 0;
+}
+img.star  {
+  animation: 5s ease 2s normal none infinite shake;
+}
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform:rotate(4deg);}
+  50% {-webkit-transform:rotate(-4deg);}
+  100% {-webkit-transform:rotate(4deg);}
+}
+ 
+/* firefox */
+@-moz-keyframes wiggle {
+  0% {-moz-transform:rotate(4deg);}
+  50% {-moz-transform:rotate(-4deg);}
+  100% {-moz-transform:rotate(4deg);}
+}
+ 
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+  0% {transform:rotate(4deg);}
+  50% {transform:rotate(-4deg);}
+  100% {transform:rotate(4deg);}
+}
+ 
+.wiggler:hover {
+  -webkit-animation: wiggle 0.5s infinite;
+  -moz-animation: wiggle 0.5s infinite;
+  animation: wiggle 0.5s infinite;
 }

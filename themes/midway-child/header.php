@@ -71,6 +71,7 @@
 					<ul id="navigation" class="sf-menu">
 						<!-- <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor" id="menu-item-75"><a href=""><strong>Home<span>welcome</span></strong></a>
 					</li> -->
+					<li><a href=""><strong>Home <span>Beach Resort</span></strong></a></li>
 					<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-64"><a href=""><strong>Accommodation<span>Rates &amp; Reservations</span></strong></a>
 						<ul class="sub-menu">
 							<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-94"><a href="">Suites, Villas &amp; Rooms</a></li>
@@ -129,7 +130,7 @@
 							<li><a href="">Beach volleyball</a></li>
 							<li><a href="">Billiards & darts</a></li>
 							<li><a href="">Fishing</a></li>
-							<li><a href="">Full basketball court</a></li>
+							<li><a href="">Full basketball court</a></li> 
 							<li><a href="">Hanging bridge</a></li>
 							<li><a href="">Horse back riding</a></li>
 							<li><a href="">Jet ski</a></li>
@@ -150,6 +151,8 @@
 				</div>
 						<!-- /.upheader -->
 						<?php get_template_part('module','slider'); ?>
+						<img class="star wiggler" src="<?php echo get_bloginfo('template_directory');?>/images/star.png">
+						<img class="ball" src="<?php echo get_bloginfo('template_directory');?>/images/ball.png">
 					<div class="contact-info">For Reservations: Call Wireless landline: <span class="highlight">+632-8061477 or Mobile (0928) 520-6255887 0369/ +63917-726-3510</span></div>
 					</div>
 					<?php } ?>
